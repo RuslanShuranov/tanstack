@@ -1,8 +1,8 @@
-import { Link, Outlet, createFileRoute } from '@tanstack/react-router'
+import { Link, Outlet, createFileRoute } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/_pathlessLayout/_nested-layout')({
   component: PathlessLayoutComponent,
-})
+});
 
 function PathlessLayoutComponent() {
   return (
@@ -30,5 +30,5 @@ function PathlessLayoutComponent() {
         <Outlet />
       </div>
     </div>
-  )
+  );
 }
